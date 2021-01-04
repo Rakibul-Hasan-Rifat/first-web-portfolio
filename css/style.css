@@ -5,7 +5,7 @@
 }
 
 .banner{
-    /* border: 1px solid orange; */
+    border: 1px solid orange;
     /* width: 95%; */
     height: 500px;
     margin: 0px auto 50px;
@@ -30,6 +30,11 @@
     height: 250px;
 }
 
+#bottom-banner h2{
+    padding: 15px;
+    font-size: 40px;
+}
+
 .half-of-bnr{
     /* border: 1px solid cyan; */
     width: 40%;
@@ -44,9 +49,22 @@
 
 #btm-bnr-left, #btm-bnr-right{
     box-shadow: 10px 10px 20px gray;
-    margin-bottom: 0px;
     height: 90%;
-    margin-bottom: 20px;
+    width: 39%;
+    margin: 0px 40px 20px;
+    background: white;
+}
+
+#btm-bnr-left{
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, salmon, tomato);
+    border-image-slice: 1;
+}
+
+#btm-bnr-right{
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, lightblue, blue);
+    border-image-slice: 1;
 }
 
 .half-of-bnr img{
