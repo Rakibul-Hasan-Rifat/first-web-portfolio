@@ -4,11 +4,80 @@
     padding:0;
 }
 
-#welcome{
-    letter-spacing: 2.5px;
-    word-spacing: 5px;
+.banner{
+    /* border: 1px solid orange; */
+    /* width: 95%; */
+    height: 500px;
+    margin: 0px auto 50px;
 }
 
-#name{
+#top-banner{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+#middle-banner{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#bottom-banner{
+    background-image:url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0px;
+    height: 250px;
+}
+
+.half-of-bnr{
+    /* border: 1px solid cyan; */
+    width: 40%;
+    float: left;
+    margin: auto 2%;
+    height: 80%;
+}
+
+#tp-bnr-left, #md-bnr-right, #btm-bnr-left, #btm-bnr-right{
+    padding: 15px 30px;
+}
+
+#btm-bnr-left, #btm-bnr-right{
+    box-shadow: 10px 10px 20px gray;
+    margin-bottom: 0px;
+    height: 90%;
+    margin-bottom: 20px;
+}
+
+.half-of-bnr img{
+    width: 450px;
+    height: 450px;
+    /* height: 400px; */
+}
+
+#tp-bnr-left h1{
+    font-size: 50px;
+}
+
+#tp-bnr-left h1 span{
     color: orange;
+
+}
+
+.half-of-bnr p{
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.half-of-bnr a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 16px;
+    background-image: linear-gradient(to right, salmon, tomato);
+    border-radius: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
 }
