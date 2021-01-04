@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#welcome{
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+}
+
+#name{
+    color: orange;
+}
